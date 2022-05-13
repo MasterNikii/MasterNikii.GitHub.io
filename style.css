@@ -26,7 +26,7 @@ body{
     background-color: rgb(66, 78, 189);
 }
 nav{
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -101,4 +101,32 @@ nav{
     .menu{
         display: flex;
     }
+}
+.Dieci{
+    display: flex;
+    background-color: #26bb13;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+.Tredici{
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+input.error{
+    background-color: red;
+}
+#CaratteriRimanenti.error{
+    color: red;
+}
+input.warning{
+    background-color: #F4B400;
+}
+#CaratteriRimanenti.warning{
+    color: #F4B400;
 }
